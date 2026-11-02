@@ -1,0 +1,6 @@
+a ist 10, b 20
+während b größer als 5 ist, werden b 5 abgezogen und zu a 2 addiert
+die Schleife wird 3 mal durchlaufen, da b erstmal 20 ist, dann 15, dann 10 und danach ist es gleich 6, nicht größer
+A ist am Anfang 10
+nach 3 maligem Durchlaufen der Schleife, wo jeweils 2 addiert wird, ist a 16
+am Ende wird a ausgegeben. 

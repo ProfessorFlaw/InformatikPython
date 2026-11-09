@@ -1,6 +1,6 @@
 n = 10
 bereich = [364,872,569,832,569,543,149,672,729,637]
-schluessel = input("Schlüssel: ")
+schluessel = int(input("Schlüssel: "))
 i = 0
 gefunden = False
 

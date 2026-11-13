@@ -10,6 +10,6 @@ while not gefunden and i < n:
     else:
         i += 1
 if gefunden:
-    print("Gefunden an der Stelle ", i)
+    print("Gefunden an der Stelle ", i, ", also der ", i+1," Eintrag auf der Liste")
 else:
     print("Element nicht im Suchbereich.")

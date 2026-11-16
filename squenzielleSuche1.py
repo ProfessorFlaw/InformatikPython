@@ -1,11 +1,16 @@
+import random
+
 n = 10
-bereich = [364,872,569,832,569,543,149,672,729,637]
+Zufallsliste = []
+for i in range(n):
+    Zufallsliste.append(random.randint(100,999))
+print(Zufallsliste)
 schluessel = int(input("Schlüssel: ")) 
 i = 0
 gefunden = False
 
 while not gefunden and i < n:
-    if schluessel == bereich[i]:
+    if schluessel == Zufallsliste[i]:
         gefunden = True
     else:
         i += 1
